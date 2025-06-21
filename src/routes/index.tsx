@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router";
 import HomePage from "../pages/home";
-import RootLayout from "../components/layout/root-layoyt";
+import RootLayout from "../components/layout/root-layout";
+import LoginPage from "../pages/login";
 
 export const routes = createBrowserRouter([
   {
@@ -15,5 +16,9 @@ export const routes = createBrowserRouter([
         Component: () => <Navigate to="/" />,
       },
     ],
+  },
+  {
+    path: "/login",
+    Component: LoginPage,
   },
 ]);
