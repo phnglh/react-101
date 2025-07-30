@@ -2,6 +2,7 @@ import { createBrowserRouter, Navigate } from "react-router";
 import HomePage from "../pages/home";
 import RootLayout from "../components/layout/root-layout";
 import LoginPage from "../pages/login";
+import { NotFound } from "../components";
 
 export const routes = createBrowserRouter([
   {
@@ -20,5 +21,9 @@ export const routes = createBrowserRouter([
   {
     path: "/login",
     Component: LoginPage,
+  },
+  {
+    path: "*",
+    Component: NotFound,
   },
 ]);

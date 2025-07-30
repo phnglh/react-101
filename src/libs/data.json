@@ -1,0 +1,43 @@
+{
+  "siteName": "My Shop",
+  "menuItems": [
+    {
+      "label": "Trang chủ",
+      "href": "/"
+    },
+    {
+      "label": "Sản phẩm",
+      "href": "/products"
+    },
+    {
+      "label": "Danh mục",
+      "children": [
+        {
+          "label": "Áo thun",
+          "href": "/category/ao-thun"
+        },
+        {
+          "label": "Quần jean",
+          "href": "/category/quan-jean"
+        },
+        {
+          "label": "Giày dép",
+          "href": "/category/giay-dep"
+        }
+      ]
+    },
+    {
+      "label": "Khuyến mãi",
+      "href": "/sale"
+    },
+    {
+      "label": "Giới thiệu",
+      "href": "/about"
+    },
+    {
+      "label": "Liên hệ",
+      "href": "/contact"
+    }
+  ],
+  "footerText": "© 2025 My Shop. All rights reserved."
+}

@@ -23,7 +23,7 @@ export default function RootLayout() {
     <>
       <motion.header
         className={cn(
-          "bg-background/30 shadow-xs fixed inset-x-0 z-40 mx-auto flex h-[60px] items-center justify-between px-8",
+          "bg-background/30 shadow-xs fixed inset-x-0 z-40 mx-auto max-w-5xl flex h-[60px] items-center justify-between px-8",
           isScrolled && "bg-background/80",
         )}
         initial={{
@@ -43,7 +43,7 @@ export default function RootLayout() {
           <span>skip to main content</span>
         </a>
         <Link to="/" className="flex items-center justify-center gap-1" aria-label="home">
-          henry
+          learn-tailwindcss
         </Link>
         <div className="flex items-center gap-2">
           <Navbar />
